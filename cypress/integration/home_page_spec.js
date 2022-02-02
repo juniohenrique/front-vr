@@ -6,12 +6,12 @@ describe('The Home Page', () => {
     })
 
 
-  /** Testit('Mapa visivel somente após o click', () => {
+  it('Mapa visivel somente após o click', () => {
     cy.visit('/') 
     cy.clickLink('Pra Você')
     cy.clickLink('Onde usar meu cartão VR?')
     cy.get('.vr-container__mapa').should('be.visible')
-  })*/
+  })
 
 
   it('Mapa invisível sem click no link', () => {
