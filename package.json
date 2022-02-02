@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "./node_modules/.bin/cypress openn"
+    "cypress:run": "./node_modules/.bin/cypress run"
   },
   "devDependencies": {
     "cypress": "^9.4.1"
