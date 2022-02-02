@@ -1,0 +1,16 @@
+{
+  "name": "front-vr",
+  "version": "1.0.0",
+  "description": "Pacote de teste tecnico para front",
+  "main": "index.js",
+  "repository": "git@github.com:juniohenrique/front-vr.git",
+  "author": "Junio Henrique <juunio.henriquee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "./node_modules/.bin/cypress openn"
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}
